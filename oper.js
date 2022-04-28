@@ -7,9 +7,9 @@ function operacion(){
     var kvm=(kvh*30)
     var pago=(kvm*n3)
     resul1=document.getElementById("resultado1");
-    resul1.innerHTML=kv;
+    resul1.innerHTML=kv.toFixed(3);
     resul2=document.getElementById("resultado2");
-    resul2.innerHTML=kvm;
+    resul2.innerHTML=(kvm.toFixed(3));
     resul3=document.getElementById("resultado3");
-    resul3.innerHTML=pago;   
+    resul3.innerHTML=pago.toFixed(3);   
 }
