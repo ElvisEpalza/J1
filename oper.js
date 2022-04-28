@@ -11,5 +11,5 @@ function operacion(){
     resul2=document.getElementById("resultado2");
     resul2.innerHTML=(kvm.toFixed(3));
     resul3=document.getElementById("resultado3");
-    resul3.innerHTML=pago.toFixed(3);   
+    resul3.innerHTML=pago;   
 }
