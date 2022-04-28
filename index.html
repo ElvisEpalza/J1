@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initialscale=1.0">
+        <link rel="stylesheet" href="newcss.css">
+        <script type="text/javascript" src="oper.js"></script> 
+    </head>
+    <body>
+        <img src="https://www.usco.edu.co/imagen-institucional/ocre/universidad-surcolombiana-50.png">
+        <h1>APP 2022-1</h1>
+        <h2>CALCULADORA DE CONSUMO DE ENERGIA ELÉCTRICA</h2>
+        <h2>Programa de Ingeniería Electrónica</h2>
+        <h2>Creador: Elvis Epalza Alarcon</h1>
+        <Form name="MyForm">
+        <div class="name">
+        <div class="Imagen"
+            ><img src="fc.gif" alt="">
+        <h2>Ingrese la potencia en (W) :</h2>
+        <input type="text" name="numero1" size="2" style="text-align:center"><br>
+        <h2>Ingrese el tiempo de uso en (Horas):</h2>
+        <input type="text" name="numero2" size="2" style="text-align:center"><br><br>
+        <h2>Ingrese el precio del KWh en (COP):</h2>
+        <input type="text" name="numero3" size="2" style="text-align:center"><br><br>
+        <input type="button" class="btn btninfo"
+        value="DETERMINAR" onclick="operacion()"><br>
+        <h2>Su potencia en KW es:</h2>
+        <h2 id="resultado1" > </h2><br>
+        <h2>Su consumo en el mes es (KW/mes):</h2>
+        <h2 id="resultado2" > </h2><br>
+        <h2>Usted debe pagar ($):</h2>
+        <h2 id="resultado3" > </h2><br>
+    </Form>
+    </body>
+</html>
